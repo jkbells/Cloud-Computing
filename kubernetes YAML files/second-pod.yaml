@@ -1,0 +1,11 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: second-pod
+spec:
+  containers:
+  - name: container-1
+    image: usama9876/my-php-app
+    ports: 
+    -  containerPort: 80
+
